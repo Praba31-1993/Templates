@@ -1,0 +1,51 @@
+.menuitems {
+  background: white;
+  color: black;
+  list-style: none;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.activemenuItems {
+  background: #e5e7eb;
+  color: black;
+  list-style: none;
+  border-radius: 10px;
+  padding: 1em;
+}
+.link {
+  text-decoration: none;
+  font-size: 14px;
+}
+.menusection {
+  border-right: 1px solid #e5e7eb;
+}
+
+.dashboard-icon {
+    display: block;
+  }
+  
+  .home-icon {
+    display: none;
+  }
+
+@media (max-width: 768px) {
+  .menusection {
+    border-right: 1px solid #e5e7eb;
+    width: 80% !important;
+    position: absolute;
+    background:white;
+    z-index: 1;
+  }
+  .contentSection{
+    width: 100% !important;
+    position: relative;
+
+  }
+  .dashboard-icon {
+    display: none;
+  }
+  .home-icon {
+    display: block;
+  }
+}

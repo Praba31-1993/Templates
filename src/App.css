@@ -1,0 +1,35 @@
+.clickMeButton {
+  position: relative; /* Required for positioning the pseudo-element */
+  width: fit-content;
+  height: auto;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  animation: btn 5s linear 2s infinite alternate;
+ }
+
+.buttonComponentStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+@keyframes btn{
+  0%{
+
+  }
+  50%{
+    background: white;
+    color: black;
+    transform: translateX(100px);
+    
+  }
+  100%{
+
+  }
+
+}
